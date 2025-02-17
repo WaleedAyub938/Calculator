@@ -1,5 +1,5 @@
 {
-  "name": "MJS",
+  "name": "Calculator",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,11 +10,19 @@
     "test": "jest"
   },
   "dependencies": {
+    "i18next": "^24.2.2",
+    "mathjs": "^14.2.1",
     "react": "18.3.1",
-    "react-native": "0.77.0"
+    "react-i18next": "^15.4.0",
+    "react-native": "0.77.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-paper": "^5.13.1",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-vector-icons": "^10.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-export-namespace-from": "^7.25.9",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
     "@react-native-community/cli": "15.0.1",
